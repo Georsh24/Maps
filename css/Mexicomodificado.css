@@ -23,8 +23,6 @@
 .fil6:hover {fill:#7B68EE;  cursor: pointer;}
 .fil7 {fill:#C9C8C8}
 .fil7:hover {fill:#4169E1;  cursor: pointer;}
-
-
 .fil9 {fill:yellow}
 .fnt0 {font-weight:normal;font-size:404.32px;font-family:'Arial'}
 .mapamexico{
@@ -32,6 +30,18 @@
 }
 svg{
   width: 80%;
-    height: 800px;
+    margin-top: 0px;
   margin-left: 10%;
+}
+svg:hover{
+    transform: scale(1.2);
+    -moz-transform : scale(1.2);
+    webkit-transform : scale(1.2);
+    o-otransform : scale(1.2);
+}
+#path29-7{
+    width: 100%;
+}
+#path29-7:hover{
+    widows: 200%;
 }
